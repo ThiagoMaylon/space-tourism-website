@@ -19,7 +19,7 @@ export  const HeaderStyle = styled.header`
        width: 90%;
        border: none;
        z-index: 4;
-       border-bottom: 1px solid #FFFFFF;
+       border-bottom: 2px solid #FFFFFF;
     }
 
 
