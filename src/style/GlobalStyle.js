@@ -6,5 +6,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: Barlow, sans-serif;
+        background-color: #0B0D17;
+    }
+
+    html{
+        overflow-x: hidden;
     }
 `
