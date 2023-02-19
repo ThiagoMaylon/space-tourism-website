@@ -72,8 +72,10 @@ export  const HeaderStyle = styled.header`
     @media (max-width: 820px) {
         .logo{
             width: 30%;
+            margin-top: 1em;
         }
         .container-nav{
+            margin-top: 0;
             width: 70%
         }
     }
@@ -88,9 +90,12 @@ export  const HeaderStyle = styled.header`
         }
         .logo{
             padding-left: 0;
+            margin-top: 0.5em;
         }
         .container-nav{
             justify-content: flex-end;
+            background-color: transparent;
+            margin-right: 1rem;
             ul{
                 display: none;
             }

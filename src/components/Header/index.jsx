@@ -4,7 +4,7 @@ import icon from '../../assets/shared/logo.svg';
 import iconOpen from '../../assets/shared/icon-hamburger.svg';
 import iconClose from '../../assets/shared/icon-close.svg';
 
-export const Header = () => {
+export const Header = ({setIsVisible}) => {
     return(
         <HeaderStyle>
             <div className="logo">
@@ -20,7 +20,7 @@ export const Header = () => {
                     <li><Link><span>02</span> CREW</Link></li>
                     <li><Link><span>03</span> TECHNOLOGY</Link></li>
                 </ul>
-                <div className="icon-menu">
+                <div className="icon-menu" onClick={() => setIsVisible(true)}>
                     <img src={iconOpen} alt="" />
                 </div>
             </div>
