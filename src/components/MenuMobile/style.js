@@ -15,7 +15,7 @@ export const MenuMobileStyle = styled.div`
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-
+    transition: 0.2s;
     .icon-menu{
         cursor: pointer;
         width: 30px;
