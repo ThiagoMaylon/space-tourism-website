@@ -75,11 +75,11 @@ export  const HeaderStyle = styled.header`
             margin-top: 1em;
         }
         .container-nav{
-            margin-top: 0;
             width: 70%
         }
     }
     @media (max-width: 710px) {
+        
         span{
             display: none;
         }
@@ -88,20 +88,19 @@ export  const HeaderStyle = styled.header`
         &{
             width: auto;
         }
-        .logo{
-            padding-left: 0;
-            margin-top: 0.5em;
-        }
+
         .container-nav{
             justify-content: flex-end;
-            background-color: transparent;
-            margin-right: 1rem;
+            background-color: none;
+            backdrop-filter: none;
+
             ul{
                 display: none;
             }
 
             .icon-menu{
                 display: block;
+                
             }
         }
     }
